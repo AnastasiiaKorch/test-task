@@ -1,0 +1,29 @@
+.logo{
+    background-image: url("../../../img/logo.png");
+    text-indent: -99999px;
+    background-position: center;
+    background-size: 168px;
+    background-repeat: no-repeat;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 168px;
+}
+
+@media (min-width: 1024px) and (max-width: 1246px){
+    .logo{
+        width: 148px;
+        background-size: 148px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .logo{
+margin-left: 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 769px){
+    .logo{
+        margin-left: 30px;
+    }
+}
