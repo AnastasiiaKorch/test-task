@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/test-task/static/css/main.c038640f.css",
+    "main.css": "/test-task/static/css/main.1ece96df.css",
     "main.js": "/test-task/static/js/main.43677ae5.js",
     "static/media/background.png": "/test-task/static/media/background.952e7e1f1bfd0d494431.png",
     "static/media/mentor.png": "/test-task/static/media/mentor.3729bda7c154a9926e30.png",
     "static/media/Montserrat-VariableFont.ttf": "/test-task/static/media/Montserrat-VariableFont.7e687123cd4528224ce5.ttf",
     "static/media/Raleway-VariableFont_wght.ttf": "/test-task/static/media/Raleway-VariableFont_wght.e14d84ccec6be3ff19e3.ttf",
     "index.html": "/test-task/index.html",
-    "main.c038640f.css.map": "/test-task/static/css/main.c038640f.css.map",
+    "main.1ece96df.css.map": "/test-task/static/css/main.1ece96df.css.map",
     "main.43677ae5.js.map": "/test-task/static/js/main.43677ae5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c038640f.css",
+    "static/css/main.1ece96df.css",
     "static/js/main.43677ae5.js"
   ]
 }
