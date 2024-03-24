@@ -285,3 +285,93 @@ width: 30%;
     }
 
 }
+
+@media (max-width: 480px){
+    .main_aboutme{
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 60vw;
+    }
+    .main_head_aboutme{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .main_text_aboutme{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .btn{
+        display: none;
+
+    }
+    .btn_span{
+        display: none;
+    }
+    .btn_mob{
+        display: block;
+    }
+    .btn_wrapper{
+        display: block;
+        position: sticky;
+    }
+    .btn_mob_btn {
+        background-image: url("../../../img/arrow.png");
+        text-indent: -9999px;
+        background-color: rgba(0, 0, 255, 0);
+        background-repeat: no-repeat;
+        width: 50px;
+        border-right: 1px solid white;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-left: none;
+        background-position: 20px 10px;
+
+
+    }
+    .btn_mob_btn:hover{
+        background-color: white;
+        background-image: url("../../../img/arrowHover.png");
+    }
+
+    .btn_span_mob{
+        padding: 13px;
+        color: white;
+        border:1px solid white;
+        font-size: 10px;
+        font-family: Raleway, sans-serif;
+        font-weight: 600;
+
+line-height: 12px;
+        width: 40%;
+
+    }
+
+    .btn_span_mob:hover{
+        background-color: white;
+        color: #07305D;
+    }
+    .btn_mob{
+        margin-bottom: 30px;
+        display: flex;
+    }
+    .num_wrap{
+        margin-top: 50px;
+    }
+    .photo{
+        margin-top: 80px;
+        margin-left:-50px;
+        width:300px;
+        height: 500px;
+    }
+
+    .num_head{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .num{
+        padding-left: 10px;
+    }
+    .num_p{
+        font-size: 10px;
+    }
+}

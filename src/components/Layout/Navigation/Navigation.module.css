@@ -72,8 +72,8 @@ margin-right: auto;
       background-size: 19px;
       background-position: center;
       width: 40px;
-      margin-left: 35%;
-      margin-right: 20px;
+      margin-left: 20%;
+
    }
    .nav_wrapper{
       width: 90%;
@@ -81,4 +81,26 @@ margin-right: auto;
       margin-top: 60px;
    }
 }
+@media (max-width: 480px){
+   .nav_wrapper{
+      width: 90%;
+   }
+   .ul{
+      display: none;
+   }
+   .burder{
+      display: block;
+      background-image: url("../../../img/burger.png");
+      background-repeat: no-repeat;
+      padding: 10px;
+      border: 2px solid white;
+      color: rgba(7, 48, 93, 0);
+      border-radius: 50%;
+      background-size: 19px;
+      background-position: center;
+      width: 17px;
+      margin-left: 30%;
 
+   }
+
+}

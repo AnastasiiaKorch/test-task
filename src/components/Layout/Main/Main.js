@@ -62,17 +62,13 @@ const[windowWidth, setWindowWidth]= useState(window.innerWidth)
                 </div>
 
         <div className={styles.btn_wrapper}>
-
-                <span className={styles.btn_span} onClick={isPopupOpen ? closePopup : openPopup}>Бесплатная консультация
-
-        </span>
-                <button className={styles.btn} onClick={isPopupOpen ? closePopup : openPopup}>11111</button>
-
-
-
+            <span className={styles.btn_span} onClick={isPopupOpen ? closePopup : openPopup}>Бесплатная консультация
+            </span>
+            <button className={styles.btn} onClick={isPopupOpen ? closePopup : openPopup}>
+                11111
+            </button>
             <span className={styles.btn_span} onClick={isPopupOpen ? closePopup : openPopup}>Записаться на косультацию
-
-                </span>
+            </span>
             <button className={styles.btn} onClick={isPopupOpen ? closePopup : openPopup}>
                 111111
             </button>

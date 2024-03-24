@@ -53,3 +53,11 @@ padding: 10px;
         display: inline;
     }
 }
+@media (max-width: 480px){
+    .contact_wrapper{
+        display: none;
+    }
+    .contact_wrapper_small{
+        display: inline;
+    }
+}
